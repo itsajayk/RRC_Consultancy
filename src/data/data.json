@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "RRC Educational Consultant in India & Overseas",
+    "paragraph": "Your Gateway to MBBS, MBA, MS, MSW, PhD, & All Internships"
+  },
+  "About": {
+    "paragraph": "RRC Educational Consultant in Thanjavur has been a trusted name in guiding students towards successful careers in India and abroad for over a decade. Beyond securing admissions, we ensure students complete their courses with promising career prospects. Recognizing that mere qualifications aren’t enough, we facilitate overseas education to enhance job opportunities. With vast experience since 2014, we have successfully placed nearly 300 students in top universities across the UK, Singapore, and Malaysia, many of whom now work in leading global companies. Our mission continues, helping students achieve their dreams at the lowest cost without compromising quality, security, or future prospects.",
+    "Why": [
+      "Expert guidance in course selection",
+      "End-to-end support",
+      "Strong university ties",
+      "Affordable education options"
+    ],
+    "Why2": [
+      "Personalized mentorship",
+      "Visa and scholarship assistance",
+      "Focus on student success",
+      "Seamless support"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-university",
+      "name": "University Admissions",
+      "text": "We assist students in securing admissions to their desired institutions in India and abroad, with a special focus on the UK, Malaysia, and Singapore."
+    },
+    {
+      "icon": "fa fa-file-text",
+      "name": "Application Process",
+      "text": "We offer complete assistance from pre-application guidance to university application support, financial aid, scholarships, part-time job options, and visa processing."
+    },
+    {
+      "icon": "fa fa-folder-open",
+      "name": "Document Process",
+      "text": "Once the course and university selection is finalized, we assist students with the document submission process to ensure smooth admission and visa approvals."
+    },
+    {
+      "icon": "fa fa-briefcase",
+      "name": "Internship",
+      "text": "We provide research-oriented internships to enhance students' career prospects and improve their practical knowledge in their chosen field."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Career Counselling",
+      "text": "We provide expert career counselling to help students choose the right course and institution. In India, we organize workshops and seminars with eminent personalities. Abroad, we guide students through institution and course selection with insights from industry experts."
+    },
+    {
+      "icon": "fa fa-globe",
+      "name": "Visa Assistance",
+      "text": "We provide complete support for student visa applications, including document preparation, interview guidance, and processing."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/nus.jpeg",
+      "name": "National University of Singapore",
+      "location": "Singapore"
+    },
+    {
+      "img": "img/team/malaya-univ.jfif",
+      "name": "University of Malaya",
+      "location": "Malaysia"
+    },
+    {
+      "img": "img/team/stand.jfif",
+      "name": "Stanford University",
+      "location": "California, USA"
+    },
+    {
+      "img": "img/team/ox.jfif",
+      "name": "University of Oxford",
+      "location": "Oxford, UK"
+    }
+  ],
+  "Contact": {
+    "address": "82, 1st Floor, Deen Complex,Mary's Corner, Thanjavur. ",
+    "phone": "+91 80156 96970",
+    "email": "rrcconsultancy@gmail.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-money",
+      "title": "Education Loan",
+      "text": "We facilitate hassle-free bank loans to help students complete their desired courses, offering convenient repayment options for financial ease."
+    },
+    {
+      "icon": "fa fa-home",
+      "title": "Accommodation",
+      "text": "We arrange affordable and hygienic accommodation, either on-campus or nearby, ensuring a comfortable stay within walking distance of the selected university."
+    },
+    {
+      "icon": "fa fa-medkit",
+      "title": "Health Insurance",
+      "text": "Health is crucial for success, and medical expenses abroad can be high. We ensure students have essential health insurance coverage for a secure and worry-free overseas education."
+    },
+    {
+      "icon": "fa fa-suitcase",
+      "title": "Part-Time Job",
+      "text": "We help students secure part-time jobs to manage their expenses while fostering responsibility and self-reliance."
+    }
+  ]
+}
