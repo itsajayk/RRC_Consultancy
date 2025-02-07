@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 const initialState = {
   name: "",
-  email: "",
+  phone: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, phone, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,7 +20,7 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
+    console.log(name, phone, message);
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
@@ -73,12 +73,12 @@ export const Contact = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
+                    <input
+                        type="text"
+                        id="phone"
+                        name="phone"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder="Phone Number"
                         required
                         onChange={handleChange}
                       />

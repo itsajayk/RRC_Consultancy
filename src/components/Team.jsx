@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 export const Team = (props) => {
   return (
@@ -10,7 +11,14 @@ export const Team = (props) => {
           We are proud to have collaborated with some of the most prestigious universities.
           </p>
         </div>
-        <div id="row">
+        <motion.div 
+        id="row"
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.2 }}
+        className="row w-full p-10 bg-blue-500 text-white text-left rounded-lg tracking-wide"
+        >
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
@@ -25,7 +33,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
