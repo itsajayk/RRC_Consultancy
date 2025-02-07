@@ -21,7 +21,13 @@ export const About = (props) => {
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
-              <div className="list-style">
+              <motion.div 
+              className="list-style w-full p-10 bg-blue-500 text-white text-left rounded-lg tracking-wide"
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.2 }}
+              >
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
                     {props.data
@@ -40,7 +46,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </motion.div>
