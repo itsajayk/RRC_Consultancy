@@ -11,13 +11,9 @@ export const Team = (props) => {
           We are proud to have collaborated with some of the most prestigious universities.
           </p>
         </div>
-        <motion.div 
+        <div 
         id="row"
-        initial={{ opacity: 0, x: 100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.2 }}
-        className="row w-full p-10 bg-blue-500 text-white text-left rounded-lg tracking-wide"
+        className="row"
         >
           {props.data
             ? props.data.map((d, i) => (
@@ -33,7 +29,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </motion.div>
+        </div>
       </div>
     </div>
   );
