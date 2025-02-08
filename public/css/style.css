@@ -39,7 +39,9 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 600;
+
 }
 p.intro {
   margin: 12px 0 0;
