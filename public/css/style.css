@@ -21,16 +21,16 @@ h2 {
   margin: 0 0 20px;
   font-weight: 600;
   font-size: 36px;
-  color: #333;
+  color: black;
 }
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: black;
 }
 h4 {
   font-size: 18px;
-  color: #333;
+  color: black;
   font-weight: 600;
 }
 h5 {
@@ -93,13 +93,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: black;
   text-transform: capitalize;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: capitalize;
-  color: #333;
+  color: black;
   font-size: 17px;
   font-weight: 700;
   padding: 8px 2px;
@@ -332,7 +332,7 @@ header .intro-text {
 #services {
   padding: 100px 0;
   background: linear-gradient(to right, #b3d7f7 0%, #5ca9fb 50%, #6372ff 100%);
-  color: #444;
+  color: black;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
@@ -348,7 +348,7 @@ header .intro-text {
 }
 
 #services h2 {
-  color: #333;
+  color: black;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -377,7 +377,7 @@ header .intro-text {
   color: #fff;
 }
 #services p {
-  color: #333;
+  color: #222;
 }
 
 #services .service-desc {
@@ -547,17 +547,17 @@ header .intro-text {
 #contact {
   padding: 100px 0 60px;
   background: linear-gradient(to right, #b3d7f7 0%, #5ca9fb 50%, #6372ff 100%);
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
 }
 #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
   font-size: 16px;
-  color: #444;
+  color: black;
 }
 #contact h2 {
-  color: #444;
+  color: black;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -572,7 +572,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #444;
+  color: black;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -606,7 +606,7 @@ label {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
+  color: black;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
@@ -618,7 +618,7 @@ label {
   transition: none;
 }
 #contact .form-control:focus {
-  border-color: #999;
+  border-color: #ff8b00;
   outline: 0;
   -webkit-box-shadow: transparent;
   box-shadow: transparent;
@@ -676,14 +676,14 @@ label {
   padding: 10px 0;
 }
 #footer p {
-  color: #fff;
+  color: black;
   font-size: 14px;
 }
 #footer a {
-  color: #fff;
+  color: black;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #cc0033;
   transition: 1s;
 }
 
