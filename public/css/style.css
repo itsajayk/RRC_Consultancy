@@ -254,10 +254,30 @@ header .intro-text {
   text-align: center;
 }
 /* Features Section */
+/* Features.css */
+/* Features.css */
 #features {
-  background: #f6f6f6;
+  position: relative;
+  background: url('/img/features-bg.jpg') no-repeat center center/cover;
   padding: 20px;
 }
+
+/* The overlay */
+#features::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand for top: 0; right: 0; bottom: 0; left: 0; */
+  background-color: rgba(226, 226, 226, 0.822); /* Adjust opacity as needed */
+  z-index: 1;
+}
+
+/* Content wrapper with higher stacking order */
+#features .content-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+
 
 #features span {
   color: #ff8b00;
@@ -278,7 +298,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  background: linear-gradient(to right, #ffffff 0%, #dce6ef 100%)
+  background: #f5faff;
 }
 #about h3 {
   font-size: 22px;
@@ -307,6 +327,8 @@ header .intro-text {
 
 .about-text span{
   color: #ff8b00;
+  text-align: center;
+  text-wrap: wrap;
 }
 
 #about .about-text li:before {
