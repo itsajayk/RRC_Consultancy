@@ -178,22 +178,22 @@
     {
       "icon": "fa fa-money",
       "title": "Education Loan",
-      "text": "We facilitate hassle-free bank loans to help students complete their desired courses, offering convenient repayment options for financial ease."
+      "text": "We provide hassle-free student loans with flexible repayment options for financial ease."
     },
     {
       "icon": "fa fa-home",
       "title": "Accommodation",
-      "text": "We provide affordable, hygienic accommodations on or near campus for a comfortable stay close to the university."
+      "text": "We offer affordable, hygienic accommodations near campus for a comfortable stay."
     },
     {
       "icon": "fa fa-medkit",
       "title": "Health Insurance",
-      "text": "We provide essential health insurance to protect students from high medical costs abroad, ensuring a secure and worry-free education."
+      "text": "We offer essential health insurance to protect students from high medical costs abroad."
     },
     {
       "icon": "fa fa-suitcase",
       "title": "Part-Time Job",
-      "text": "We help students secure part-time jobs to manage their expenses while fostering responsibility and self-reliance."
+      "text": "We assist students in finding part-time jobs for financial independence and growth."
     }
   ]
 }
