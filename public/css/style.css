@@ -258,6 +258,11 @@ header .intro-text {
   background: #f6f6f6;
   padding: 20px;
 }
+
+#features span {
+  color: #ff8b00;
+}
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -299,6 +304,11 @@ header .intro-text {
   list-style: none;
   padding: 0;
 }
+
+.about-text span{
+  color: #ff8b00;
+}
+
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
@@ -327,6 +337,16 @@ header .intro-text {
 #services .service-desc {
   margin: 10px 10px 20px;
 }
+
+.service-desc a{
+  color: #444;
+}
+
+.service-desc a:hover{
+  color: #ff8b00;
+  transition: .8s;
+}
+
 #services h2 {
   color: #fff;
 }
@@ -359,6 +379,7 @@ header .intro-text {
 #services p {
   color: rgba(255, 255, 255, 0.75);
 }
+
 #services .service-desc {
   margin-bottom: 40px;
 }
@@ -454,21 +475,74 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
 }
-#team h4 {
-  margin: 5px 0;
+
+#team p{
+  color: #ff8b00;
 }
+
+#team .container {
+  position: relative;
+  width: 80%; /* Adjust to reduce width */
+  overflow: hidden;
+}
+
+/* Fading effect on both sides */
+#team .container::before,
+#team .container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100px; /* Adjust width for smoother transition */
+  height: 100%;
+  z-index: 2; /* Ensure it's above images */
+  pointer-events: none;
+}
+
+#team .container::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+#team .container::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+/* Scrolling effect */
+#team .carousel-wrapper {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  animation: scroll 15s linear infinite;
+}
+
+#team .team-item {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+  opacity: 0.9;
+}
+
 #team .team-img {
-  width: 240px;
+  width: 120px;
+  height: auto;
+  object-fit: contain;
 }
-#team .thumbnail {
-  background: transparent;
-  border: 0;
+
+/* Infinite scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -586,14 +660,14 @@ label {
   width: 48px;
   height: 48px;
   padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #ff8b00;
+  color: #ff8b00;
   border-radius: 50%;
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+  color: #fff;
+  background: #ff8b00;
 }
 /* Footer Section*/
 #footer {

@@ -1,34 +1,23 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 export const Team = (props) => {
+  const universities = props.data ? [...props.data, ...props.data] : [];
+
   return (
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Our University Ties</h2>
-          <p>
-          We are proud to have collaborated with some of the most prestigious universities.
-          </p>
+          <h2>Our <span>University Ties</span></h2>
+          <p>We are proud to collaborate with prestigious universities.</p>
         </div>
-        <div 
-        id="row"
-        className="row"
-        >
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
-                  <div className="thumbnail">
-                    {" "}
-                    <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.location}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            : "loading"}
+
+        <div className="carousel-wrapper">
+          {universities.map((d, i) => (
+            <div key={`${d.name}-${i}`} className="team-item">
+              <img src={d.img} alt={d.name} className="team-img" />
+              {/* <h4>{d.name}</h4> */}
+            </div>
+          ))}
         </div>
       </div>
     </div>

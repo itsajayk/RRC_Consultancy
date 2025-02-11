@@ -89,7 +89,7 @@
     {
       "icon": "fa fa-users",
       "name": "Career Counselling",
-      "text": "We provide expert career counselling to help students choose the right course and institution. In India, we organize workshops and seminars with eminent personalities. Abroad, we guide students through institution and course selection with insights from industry experts."
+      "text": "We offer expert career counseling, organizing workshops in India with eminent personalities and providing guidance abroad with industry insights for course and institution selection."
     },
     {
       "icon": "fa fa-globe",
@@ -131,22 +131,37 @@
   ],
   "Team": [
     {
-      "img": "img/team/nus.jpeg",
+      "img": "img/team/nus.png",
       "name": "National University of Singapore",
       "location": "Singapore"
     },
     {
-      "img": "img/team/malaya-univ.jfif",
+      "img": "img/team/malay.png",
       "name": "University of Malaya",
       "location": "Malaysia"
     },
     {
-      "img": "img/team/stand.jfif",
+      "img": "img/team/stand.png",
       "name": "Stanford University",
       "location": "California, USA"
     },
     {
-      "img": "img/team/ox.jfif",
+      "img": "img/team/cam.jpg",
+      "name": "cambridge University",
+      "location": "uk"
+    },
+    {
+      "img": "img/team/edin.png",
+      "name": "edinburg University",
+      "location": "uk"
+    },
+    {
+      "img": "img/team/nan.jpg",
+      "name": "nanyang University",
+      "location": "Singapore"
+    },
+    {
+      "img": "img/team/ox.jpg",
       "name": "University of Oxford",
       "location": "Oxford, UK"
     }
