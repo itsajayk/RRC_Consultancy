@@ -571,7 +571,7 @@ header .intro-text {
   padding: 100px 0 60px;
   /* Set the background image */
   background: url('/img/map-bg.jpg') no-repeat center center/cover;
-  color: black;
+  color: #ddd;
 }
 
 /* Create the gradient overlay as a pseudo-element */
@@ -580,7 +580,7 @@ header .intro-text {
   position: absolute;
   inset: 0; /* Fills the entire #contact area */
   /* Use the gradient as the overlay with desired opacity */
-  background-color:rgba(92, 169, 251,0.6);
+  background-color:rgb(9, 11, 94, .8);
   z-index: 1;
 }
 
@@ -595,10 +595,10 @@ header .intro-text {
 }
 #contact .section-title p {
   font-size: 16px;
-  color: black;
+  color: white;
 }
 #contact h2 {
-  color: black;
+  color: white;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -613,7 +613,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: black;
+  color: white;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -647,7 +647,7 @@ label {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: black;
+  color: white;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
