@@ -26,7 +26,7 @@ export const Features = (props) => {
                     transition={{ duration: 0.3, ease: "easeOut" }}
                     style={{ cursor: "pointer", zIndex: 3 }}
                   >
-                    <i className={d.icon} style={{ fontSize: "38px", color: "#fff" }}></i>
+                    <i className={d.icon} style={{ fontSize: "38px", color: "#333" }}></i>
                     <h3 className="text-white">{d.title}</h3>
                     <p className="text-gray-300">{d.text}</p>
                     <a href="" className="text-orange-400 hover:underline">

@@ -8,6 +8,7 @@ const initialState = {
   phone: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, phone, message }, setState] = useState(initialState);
 
@@ -15,15 +16,14 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
   
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, phone, message);
     
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+    // Replace below with your own Service ID, Template ID and Public Key from your EmailJS account 
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
@@ -36,18 +36,20 @@ export const Contact = (props) => {
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
+        {/* The container div will be positioned above the gradient overlay */}
         <div className="container">
           <div className="col-md-8">
             <motion.div 
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            viewport={{ once: false, amount: 0.2 }}
-            className="row w-full p-10 bg-blue-500 text-white text-center rounded-lg"
-              >
+              initial={{ opacity: 0, y: 100 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.2 }}
+              className="row w-full p-10 bg-blue-500 text-white text-center rounded-lg"
+            >
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
@@ -73,7 +75,7 @@ export const Contact = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                    <input
+                      <input
                         type="text"
                         id="phone"
                         name="phone"
@@ -170,7 +172,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2025 template {" "} Designed by {""}
+            &copy; 2025 template Designed by{" "}
             <a href="https://n-ajanthan-portfolio.vercel.app/" rel="nofollow">
               Ajanthan N
             </a>
