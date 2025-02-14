@@ -735,5 +735,29 @@ label {
 
   #menu img {
     width: 18em;
-}
+  }
+
+  #team .carousel-wrapper::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  }
+
+  
+
+  #team .carousel-wrapperr::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  }
+
+  .section-title h2, #team p {
+    text-align: center;
+    text-wrap: wrap;
+  }
+
+  #team .container {
+    position: relative;
+    width: 100%; /* Adjust to reduce width */
+    overflow: hidden;
+  }
+
 }
