@@ -580,7 +580,7 @@ header .intro-text {
   position: absolute;
   inset: 0; /* Fills the entire #contact area */
   /* Use the gradient as the overlay with desired opacity */
-  background-color:rgb(9, 11, 94, .8);
+  background-color:rgb(9, 11, 94, .7);
   z-index: 1;
 }
 
